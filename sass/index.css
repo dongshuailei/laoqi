@@ -1,0 +1,571 @@
+@charset "UTF-8";
+/* 定义变量与值 */
+/* 使用变量 */
+.top a:hover {
+  border-bottom: 5px solid aquamarine;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.box {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.top {
+  width: 1200px;
+  height: 64px;
+  line-height: 64px;
+}
+
+.right {
+  height: 32px;
+  width: 1200px;
+  line-height: 32px;
+}
+
+.right span {
+  font-size: 12px;
+  float: right;
+  padding-right: 20px;
+  margin-right: 10px;
+}
+
+.top img {
+  width: 129px;
+  height: 42px;
+  float: left;
+}
+
+.top li {
+  width: 98px;
+  height: 21px;
+  float: left;
+  text-align: center;
+}
+
+.top a {
+  width: 32px;
+  height: 21px;
+  color: black;
+  text-decoration: none;
+}
+
+.top input {
+  width: 173px;
+  height: 30px;
+  margin-right: 20px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.top button {
+  width: 50px;
+  height: 34px;
+  position: absolute;
+  left: 1011px;
+  top: 49px;
+  border: none;
+  background-color: lawngreen;
+}
+
+.top-0 {
+  width: 1200px;
+  height: 400px;
+}
+
+.top-0 img {
+  width: 1200px;
+  height: 400px;
+}
+
+.box-2 {
+  width: 1200px;
+  height: 180px;
+  padding: 20px 0;
+  display: block;
+}
+
+.box-2 li {
+  width: 180px;
+  height: 72px;
+  float: left;
+  text-align: center;
+  line-height: 180px;
+}
+
+.box-2 a {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 71%;
+}
+
+.focus {
+  width: 1200px;
+  height: 364px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.bd {
+  width: 400px;
+  overflow: hidden;
+  float: left;
+  /* margin-right: 20px; */
+}
+.slides img {
+  width: 400px;
+  height: 288px;
+}
+.slides-a img {
+  width: 400px;
+}
+.bd a {
+  text-decoration: none;
+  color: black;
+}
+
+.bd-bd {
+  width: 690px;
+  height: 364px;
+  float: left;
+}
+
+.bd-1 {
+  width: 690px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.bd-bd .bd-1 a {
+  width: 116px;
+  height: 41px;
+  display: block;
+  float: left;
+  margin-left: 56px;
+  color: black;
+  text-decoration: none;
+}
+
+.bd-bd .bd-1 a:hover {
+  border-bottom: 5px solid lawngreen;
+  font-size: 22px;
+}
+
+.tab-content {
+  width: 610px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.focus-a {
+  width: 1200px;
+  height: 406px;
+  margin: auto;
+}
+
+.bd-a {
+  width: 400px;
+  overflow: hidden;
+  float: left;
+  margin-right: 20px;
+}
+
+.bd-a a {
+  text-decoration: none;
+  color: black;
+}
+
+.bd-bd-a {
+  width: 690px;
+  height: 406px;
+  float: left;
+}
+
+.bd-1-a {
+  width: 690px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.bd-bd-a .bd-1-a a {
+  width: 116px;
+  height: 41px;
+  display: block;
+  float: left;
+  margin-left: 56px;
+  color: black;
+  text-decoration: none;
+}
+
+.bd-bd-a .bd-1-a a:hover {
+  border-bottom: 5px solid lawngreen;
+  font-size: 22px;
+}
+
+.tab-content-a {
+  width: 610px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.imgaaa img {
+  position: absolute;
+  left: 83%;
+  top: 56%;
+  z-index: 999;
+}
+#Content2 {
+  width: 1200px;
+  height: 671px;
+}
+#china-map {
+  width: 854px;
+  height: 671px;
+  margin: auto;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+}
+.box-50 {
+  width: 1200px;
+  height: 683px;
+  margin: auto;
+}
+.box-50 .box-51 {
+  width: 894px;
+  height: 42px;
+  float: left;
+  font-size: 20px;
+  border-bottom: 1px solid gray;
+  margin-right: 20px;
+}
+#china-map {
+  width: 894px;
+  height: 641px;
+}
+.you {
+  width: 282px;
+  height: 683px;
+  float: left;
+  overflow: hidden;
+  position: absolute;
+  left: 67%;
+  top: 1486px;
+}
+.box-50 .tel_v {
+  width: 282px;
+  height: 42px;
+  font-size: 20px;
+  border-bottom: 1px solid gray;
+  float: left;
+}
+.box-50 .tel_list {
+  width: 282px;
+  float: left;
+}
+.qr_code img {
+  width: 78px;
+  height: 78px;
+}
+.tel_list li {
+  display: block;
+  height: 20px;
+  color: #2e2e30;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.tel_list li #VenuesIDSubject {
+  float: left;
+}
+.tel_list li #VenuesIDContent {
+  float: left;
+  margin-left: 38px;
+  color: #18ae66;
+  font-weight: bold;
+}
+.rep-area {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: #18ae66;
+  border-radius: 4px;
+  height: 48px;
+  line-height: 48px;
+  margin: 20px 0 52px 0;
+}
+a {
+  text-decoration: none;
+}
+.rep-area a {
+  color: white;
+}
+.tel_v {
+  font-size: 22px;
+  color: #2e2e30;
+  position: relative;
+  padding-left: 15px;
+  margin: 0px 0 22px 0;
+  border-bottom: 1px solid #eaeaee;
+  height: 41px;
+}
+.qr_code li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  height: auto;
+  display: block;
+  margin-top: 13px;
+}
+.qr_code li span {
+  font-size: 12px;
+  color: #8e8e92;
+  line-height: 12px;
+}
+.Footer {
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+}
+.w1200 {
+  width: 1200px;
+  margin: auto;
+}
+
+.foot {
+  border-top: 1px solid #eaeaee;
+  text-align: center;
+}
+
+.foot p {
+  font-size: 12px;
+  color: #8e8e92;
+  line-height: 38px;
+}
+
+.foot p a {
+  margin-left: 30px;
+  color: #8e8e92;
+}
+
+.link {
+  width: 613px;
+  margin: auto;
+  padding: 20px 0;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+}
+
+.link ul {
+  margin: auto;
+  float: left;
+}
+
+.link ul li {
+  padding: 0px 20px;
+  font-size: 14px;
+  color: #2e2e30;
+  border-right: 1px solid #d8d8dc;
+  float: left;
+}
+
+.link ul li a {
+  color: #2e2e30;
+}
+
+h4 {
+  font-size: 16px;
+  color: #8e8e92;
+}
+.link ul li {
+  font-size: 14px;
+  color: #2e2e30;
+  border-right: 1px solid #d8d8dc;
+  float: left;
+}
+.link h4 {
+  font-size: 16px;
+  color: #8e8e92;
+  margin-left: 71px;
+}
+.focus_news {
+  width: 690px;
+  height: 364px;
+  position: relative;
+  float: left;
+}
+.push_a {
+  position: absolute;
+  right: 0;
+  top: -220px;
+}
+a {
+  text-decoration: none;
+  color: #040404;
+}
+.tab_title,
+.tabs2 {
+  border-bottom: solid #eaeaee 1px;
+  clear: both;
+  overflow: hidden;
+  zoom: 1;
+  margin-bottom: 20px;
+  height: 41px;
+}
+.tab_title h2,
+.tabs2 a {
+  float: left;
+  padding: 0 14px;
+  height: 37px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 22px;
+  color: #2e2e30;
+  cursor: pointer;
+  margin-right: 14px;
+}
+.tab_list ul.newfix {
+  border-bottom: 1px #eaeaee solid;
+  height: 104px;
+  margin-bottom: 20px;
+}
+.tab_list ul.newfix li {
+  position: relative;
+}
+.tab_list ul.newfix li #ReportIDname,
+.tab_list ul.newfix li #ReportIDnewquota {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+}
+.tab_list ul.newfix li #ReportIDname a,
+.tab_list ul.newfix li #ReportIDnewquota a {
+  color: #2e2e30;
+  padding-left: 18px;
+}
+element.style {
+}
+.tab_list ul.newfix li #ReportIDLogograph {
+  color: #8e8e92;
+  line-height: 22px;
+  font-size: 14px;
+  padding-left: 18px;
+  display: block;
+}
+.box-2 ul li {
+  flex: 1;
+}
+.newlist li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 19px;
+  font-size: 18px;
+  overflow: hidden;
+  zoom: 1;
+  height: 20px;
+  line-height: 20px;
+}
+.newlist li #ReportIDname {
+  float: left;
+}
+a {
+  text-decoration: none;
+  color: #040404;
+}
+.newlist li #ReportIDIssueTime,
+.newlist li #StampIDrtime {
+  float: right;
+  color: #939393;
+  font-size: 12px;
+}
+.newlist li #ReportIDIssueTime,
+.newlist li #StampIDrtime {
+  float: right;
+  color: #939393;
+  font-size: 12px;
+}
+.tab_list ul.newfix {
+  border-bottom: 1px #eaeaee solid;
+  height: 104px;
+  margin-bottom: 20px;
+}
+.tab_list ul.newfix li #ReportIDname,
+.tab_list ul.newfix li #ReportIDnewquota {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+}
+.tab_list ul.newfix li #ReportIDLogograph {
+  color: #8e8e92;
+  line-height: 22px;
+  font-size: 14px;
+  padding-left: 18px;
+  display: block;
+}
+.tab_list ul.newfix li #ReportIDname a,
+.tab_list ul.newfix li #ReportIDnewquota a {
+  color: #2e2e30;
+  padding-left: 18px;
+}
+.tab_list ul.newfix li #ReportIDname,
+.tab_list ul.newfix li #ReportIDnewquota {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+}
+.tab_list ul.newfix li #ReportIDLogograph {
+  color: #8e8e92;
+  line-height: 22px;
+  font-size: 14px;
+  padding-left: 18px;
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.newlist li #ReportIDIssueTime,
+.newlist li #StampIDrtime {
+  float: right;
+  color: #939393;
+  font-size: 12px;
+}
+/*# sourceMappingURL=index.css.map */
