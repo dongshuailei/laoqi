@@ -263,6 +263,18 @@
   </div>
 </body>
 <script>
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    var imgList = document.querySelectorAll("img");
+    for (var i = 0; i < imgList.length; i++) {
+      imgList[i].addEventListener('load', function () {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', this.src, true);
+        xhr.setRequestHeader('Referer', 'http://www.chinapost.com.cn/');
+        xhr.send(null);
+      }, false);
+    }
+  });
   $(function () {
     function bqqh() {
       console.log(1);
